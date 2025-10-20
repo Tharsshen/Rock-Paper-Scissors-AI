@@ -7,7 +7,7 @@ import pygame
 from tkinter import *
 from tkvideo import tkvideo
 
-# Initialize pygame mixer for music and sounds
+# Initialize pygame mixer for music and sounds 
 pygame.mixer.init()
 
 # Load sound effects
@@ -22,6 +22,7 @@ cap = cv2.VideoCapture(0)
 cap.set(3, 640)
 cap.set(4, 480)
 
+# Detect Hands
 detector = HandDetector(maxHands=1)
 
 timer = 0
