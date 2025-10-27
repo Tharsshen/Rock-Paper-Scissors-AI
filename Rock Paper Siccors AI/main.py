@@ -17,7 +17,7 @@ sound_tournament_end = pygame.mixer.Sound("Resources/tournament_end.mp3")
 sound_select_mode = pygame.mixer.Sound("Resources/select_mode.mp3")  # New sound for mode selection
 sound_draw = pygame.mixer.Sound("Resources/draw.mp3")  # New sound for draw
 
-# Initialize webcam and settings
+# Initialize webcam and settingss
 cap = cv2.VideoCapture(0)
 cap.set(3, 640)
 cap.set(4, 480)
