@@ -10,7 +10,7 @@ from tkvideo import tkvideo
 # Initializee pygame mixer for music and soundss 
 pygame.mixer.init()
 
-# Load sound effects
+# Load sound effectss
 sound_player_win = pygame.mixer.Sound("Resources/player_win.mp3")
 sound_ai_win = pygame.mixer.Sound("Resources/ai_win.mp3")
 sound_tournament_end = pygame.mixer.Sound("Resources/tournament_end.mp3")
