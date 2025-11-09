@@ -7,7 +7,7 @@ import pygame
 from tkinter import *
 from tkvideo import tkvideo
 
-# Initializee pygame mixer for music and soundssssssss 
+# Initializee pygame mixer for music and soundsssssssss 
 pygame.mixer.init()
 
 # Load sound effectss
